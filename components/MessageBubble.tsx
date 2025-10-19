@@ -1,5 +1,5 @@
 export default function MessageBubble(
-  { role, text }: { role: 'user' | 'assistant' | 'system', text: string }
+  { role, text }: { role: string; text: string }
 ) {
   let classes = 'rounded-2xl px-4 py-3 whitespace-pre-wrap';
   if (role === 'user') classes += ' self-end bg-black/10 border border-black/20';
