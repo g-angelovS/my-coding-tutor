@@ -7,7 +7,7 @@ export default function Page() {
   const [language, setLanguage] = useState<'python'|'javascript'>('python')
   return (
     <main style={{maxWidth: 900, margin:'2rem auto', padding:'0 1rem'}}>
-      <h1 style={{fontSize:'1.8rem', marginBottom:'1rem'}}>Coding Tutor</h1>
+      <h1 style={{fontSize:'2rem', marginBottom:'1rem', color:'#10b981'}}>🚀 IT WORKS — Chat Enabled</h1>
       <div style={{display:'grid', gap:'1rem', gridTemplateColumns:'1fr'}}>
         <section style={{border:'1px solid #222', borderRadius:12, padding:16}}>
           <div style={{display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:12}}>
